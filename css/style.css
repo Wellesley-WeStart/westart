@@ -16,11 +16,13 @@ h1, h2{
 
 
 /*header area*/
-.top-header{
-	background: #fff !important;
+.top-header {
+	background: transparent;
+	backdrop-filter: blur(10px);
 	position: fixed;
 	width: 100%;
 	z-index: 99999;
+	border-bottom: 1px solid black;
 }
 .header-backup{
 	width: 20px;
@@ -86,6 +88,13 @@ li a:active{
 }
 
 
+/*hero image*/
+.hero-image {
+	height: 500px;
+	width: 100%;
+	position: relative;
+	object-fit: contain;
+}
 
 /*slider area*/
 .slider-row{

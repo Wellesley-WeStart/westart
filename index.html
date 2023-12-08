@@ -13,359 +13,329 @@
 <body>
 
 	<!-- ====================================================
-	header section -->
+	NAVIGATION BAR -->
 	<header class="top-header">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-5 header-logo">
 					<br>
-					<a href="index.html"><img src="img/logo.png" alt="" width="50%" class="img-responsive logo" position="fixed"></a>
+					<a href="index.html"><img src="img/WESTARTLOGO_TEXT_2324 new.png" alt="" width="50%" class="img-responsive logo" position="fixed"></a>
 				</div>
 
 				<div class="col-md-7">
 					<nav class="navbar navbar-default">
-					  <div class="container-fluid nav-bar">
-					    <!-- Brand and toggle get grouped for better mobile display -->
-					    <div class="navbar-header">
-					      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					        <span class="sr-only">Toggle navigation</span>
-					        <span class="icon-bar"></span>
-					        <span class="icon-bar"></span>
-					        <span class="icon-bar"></span>
-					      </button>
-					    </div>
+						<div class="container-fluid nav-bar">
+							<!-- Brand and toggle get grouped for better mobile display -->
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							</div>
 
-					    <!-- Collect the nav links, forms, and other content for toggling -->
-					    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-					      <ul class="nav navbar-nav navbar-right">
-					        <li><a class="menu active" href="#home">Home</a></li>
-					        <li><a class="menu" href="#about">About</a></li>
-					        <li><a class="menu" href="#service">Incubator </a></li>
-					        <li><a class="menu" href="#team">Team</a></li>
-					        <li><a class="menu" href="#contact">Contact</a></li>
-					      </ul>
-					    </div><!-- /navbar-collapse -->
-					  </div><!-- / .container-fluid -->
+								<ul class="nav navbar-nav navbar-right">
+									<li><a class="menu active" href="#home">Home</a></li>
+									<li><a class="menu" href="#about">About</a></li>
+									<li><a class="menu" href="#service">Incubator </a></li>
+									<li><a class="menu" href="#team">Team</a></li>
+									<li><a class="menu" href="#contact">Contact</a></li>
+								</ul>
+							</div><!-- /navbar-collapse -->
+						</div><!-- / .container-fluid -->
 					</nav>
 				</div>
 			</div>
 		</div>
 	</header> <!-- end of header area -->
-
-
-
-
-			<section class="slider" id="home">
+	<!--BANNER IMAGE AND INFORMATION-->
+	<img class="hero-image" scr="img/home.png"/>
+	<!--
+	<section class="slider" id="home">
 				<div class="container-fluid">
-					<div class="row">
-
-					    <div id="carouselHacked" class="carousel slide carousel-fade" data-ride="carousel">
-							<div class="header-backup"></div>
-					        <!-- Wrapper for slides -->
-					        <div class="carousel-inner" role="listbox">
-					            <div class="item active">
-					            	<img src="img/slide-one.jpg" width="100%" alt="">
-					                <div class="carousel-caption">
-				               			<h1>Community</h1>
-				               			<!-- <p></p> -->
-				               			<!-- <button>learn more</button> -->
-					                </div>
-					            </div>
-					            <div class="item">
-					            	<img src="img/slide-two.jpg" width="100%" alt="">
-					                <div class="carousel-caption">
-				               			<h1>Empowerment</h1>
-				               			<!-- <p>good business consulting service</p> -->
-				               			<!-- <button>learn more</button> -->
-					                </div>
-					            </div>
-					            <div class="item">
-					            	<img src="img/slide-three.jpg" width="100%" alt="">
-					                <div class="carousel-caption">
-				               			<h1>Opportunity</h1>
-				               			<!-- <p></p> -->
-				               			<!-- <button>learn more</button> -->
-					                </div>
-					            </div>
-
-
-					            <div class="item">
-					            	<img src="img/slide-five.JPG" width="100%" alt="">
-					                <div class="carousel-caption">
-				               			<h1>Growth</h1>
-					                </div>
-					            </div>
-
-
-
-					        </div>
-
-					        <!-- Controls -->
-					        <a class="left carousel-control" href="#carouselHacked" role="button" data-slide="prev">
-					            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-					            <span class="sr-only">Previous</span>
-					        </a>
-					        <a class="right carousel-control" href="#carouselHacked" role="button" data-slide="next">
-					            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-					            <span class="sr-only">Next</span>
-					        </a>
-					    </div>
-
-					</div>
+					< class="row">
+	----------------------------------------------------------------------------------------
+	CAROUSEL COMPONENTS
+	1) Community (Join Mailing List, Alum Mentor Pairing)
+	2) Empowerment (Partnerships with Companies)
+	3) Opportunity (Startup Pairings)
+	4) Growth (Technical Skills)
+	----------------------------------------------------------------------------------------
+	Key Code:
+	<div id="carouselHacked" class="carousel slide carousel-fade" data-ride="carousel">
+		<div class="header-backup"></div>
+			<div class="carousel-inner" role="listbox"> // or class can be "item"
+				<div class="item active">
+					<img src="img/[IMG SRC HERE].jpg" width="100%" alt="">
+						<h1>[SECTION TITLE]</h1>
+						<button>[BUTTON NAME]</button>
 				</div>
-			</section><!-- end of slider section -->
+			</div>
+	LEFT/ RIGHT CONTROLS
+	<a class="left carousel-control" href="#carouselHacked" role="button" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		<span class="sr-only">Previous</span>
+	</a>
+	<a class="right carousel-control" href="#carouselHacked" role="button" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		<span class="sr-only">Next</span>
+	</a>
+	-->
+	<!-- end of slider section -->
+	<!-- about section -->
 
 
-			<!-- about section -->
-			<section class="about text-center" id="about">
-				<div class="container">
-					<div class="row">
-						<h2>about us</h2>
-						<h4>WeStart is Wellesley College's entrepreneurship club. We strive to foster an entrepreneurial spirit on our campus. From bringing successful entrepreneurs on campus to hosting Wellesley's first Pitch Competition, we aim to expose students to the exciting world of entrepreneurship.<br> Below, you can find some events hosted by the club.</h4>
 
-						<div class="col-md-4 col-sm-6">
-							<div class="single-about-detail clearfix">
-								<div class="about-img">
-									<img src="img/about1.jpg" alt="">
-								</div>
+	<section class="about text-center" id="about">
+		<div class="container">
+			<div class="row">
+				<h2>about us</h2>
+				<h4>
+					WeStart (Wellesley Startup Club) is  the premier undergraduate entrepreneurship club at Wellesley College.
+					We strive to foster an entrepreneurial spirit on our campus. From bringing successful entrepreneurs on
+					campus to hosting Wellesley's first Pitch Competition, we aim to expose students to the exciting world
+					of entrepreneurship.<br> Below, you can find some events hosted by the club.
+				</h4>
 
-								<div class="about-details">
-									<div class="pentagon-text">
-										<h1>P</h1>
-									</div>
-
-									<h3>Pitch Competition</h3>
-									<p>WeStart, in collarboration with WWIB organized Wellesley's first Start Up Pitch Competition, with prize money worth $5000. With over 15 teams and 40 partipants, the competition was a huge success. WeStart also organized a lecture series prior to the competition to help participants develop their business plans and think about financing.</p>
-								</div>
-							</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="single-about-detail clearfix">
+						<div class="about-img">
+							<img src="img/IMG_6658.jpg" alt="">
 						</div>
 
-						<div class="col-md-4 col-sm-6">
-							<div class="single-about-detail">
-								<div class="about-img">
-									<img class="img-responsive" src="img/about2.jpg" alt="">
-								</div>
-
-								<div class="about-details">
-									<div class="pentagon-text">
-										<h1>T</h1>
-									</div>
-
-									<h3>Career Talks</h3>
-									<p>WeStart hosted various talks to expose the community to alternative career paths in entrepreneurship and tech. We brought in individuals with experience as product managers in high-growth start ups and as Angel Investors for a lecture series as well as representatives from Draper University, a start-up bootcamp. <br> <br> </p>
-								</div>
+						<div class="about-details">
+							<div class="pentagon-text">
+								<h1>P</h1>
 							</div>
-						</div>
 
-
-						<div class="col-md-4 col-sm-6">
-							<div class="single-about-detail">
-								<div class="about-img">
-									<img class="img-responsive" src="img/about3.jpg" alt="">
-								</div>
-
-								<div class="about-details">
-									<div class="pentagon-text">
-										<h1>L</h1>
-									</div>
-
-									<h3>Lecture Series</h3>
-									<p>WeStart hosted a lecture series with notable alumni in the Boston start-up scene such as C.A. Webb and Sarah Blake Case. Students were exposed to everything from workshops on how to start a business to learning about venture capital.<br> <br><br><br></p>
-								</div>
-							</div>
-						</div>
-
-					</div>
-				</div>
-			</section><!-- end of about section -->
-
-
-			<!-- service section starts here -->
-
-
-
-			<!-- <section class="service text-center" id="service">
-				<div class="container">
-					<div class="row">
-						<h2>our services</h2>
-						<h4>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</h4>
-
-						<div class="col-md-3 col-sm-6">
-							<div class="single-service">
-								<div class="single-service-img">
-									<div class="service-img">
-										<img class="img-responsive" src="img/service1.png" alt="">
-									</div>
-								</div>
-								<h3>Consulting</h3>
-							</div>
-						</div>
-
-						<div class="col-md-3 col-sm-6">
-							<div class="single-service">
-								<div class="single-service-img">
-									<div class="service-img">
-										<img class="img-responsive" src="img/service2.png" alt="">
-									</div>
-								</div>
-								<h3>Financial</h3>
-							</div>
-						</div>
-
-						<div class="col-md-3 col-sm-6">
-							<div class="single-service">
-								<div class="single-service-img">
-									<div class="service-img">
-										<img class="img-responsive" src="img/service3.png" alt="">
-									</div>
-								</div>
-								<h3>Tax Help</h3>
-							</div>
-						</div>
-
-						<div class="col-md-3 col-sm-6">
-							<div class="single-service">
-								<div class="single-service-img">
-									<div class="service-img">
-										<img class="img-responsive" src="img/service4.png" alt="">
-									</div>
-								</div>
-								<h3>Money</h3>
-							</div>
+							<h3>Pitch Competition</h3>
+							<p>
+								WeStart, in collarboration with WWIB organized Wellesley's first Start Up Pitch Competition,
+								with prize money worth $5000. With over 15 teams and 40 partipants, the competition was a huge
+								success. WeStart also organized a lecture series prior to the competition to help participants
+								develop their business plans and think about financing.
+							</p>
 						</div>
 					</div>
 				</div>
-			</section><!-- end of service section -->
- -->
 
-			<!-- team section -->
-
-			<section class="team" id="team">
-				<div class="container">
-					<div class="row">
-						<div class="team-heading text-center">
-							<h2 id = "special">our team</h2>
-
-							<!-- Need to fix the alignment of this- it needs to be wider! -->
-
-							<h4>WeStart's Co-Founders serve as WeStart's current executive board. </h4>
-						</div>
-						<div class = "properalign">
-						<div class="col-md-2 single-member col-sm-3">
-							<div class="person">
-								<img class="img-responsive" src="img/item1.jpg" alt="member-1">
-							</div>
-
-							<div class="person-detail">
-								<div class="arrow-bottom"></div>
-								<h3>Tina Zhang</h3>
-								<p>Class of 2019, Economics</p>
-								<p>Before Wellesley, Zhang interned at a radio app Start-up where she really enjoyed the entrepreneurial culture. Currently, she is working on a project that aims to improve nutrition deficiency in rural India.</p>
-							</div>
-
+				<div class="col-md-4 col-sm-6">
+					<div class="single-about-detail">
+						<div class="about-img">
+							<img class="img-responsive" src="img/about2.jpg" alt="">
 						</div>
 
-						<div class="col-md-2 single-member col-sm-3">
-
-							<div class="person-detail">
-								<div class="arrow-top"></div>
-								<h3>Mojia Shen</h3>
-								<p>Class of 2018, Technology, Innovation, and Society</p>
-								<p> Mojia started Flavory after her first year which empowers stay-at-home mothers in mexico to sell homemade food to young professionals. Before that, Mojia founded a mental health nonprofit in China.</p>
-							</div>
-							<div class="person">
-								<img class="img-responsive" src="img/item2.jpg" alt="member-2">
-							</div>
-						</div>
-						<div class="col-md-2 single-member col-sm-3">
-							<div class="person">
-								<img class="img-responsive" src="img/item3.jpg" alt="member-3">
-							</div>
-							<div class="person-detail">
-								<div class="arrow-bottom"></div>
-								<h3>Rhea Advani</h3>
-								<p>Class of 2017, Economics</p>
-								<p>Advani was exposed to entrepreneurship after working for a Harvard College tech start-up her sophomore summer. As a senior, Advani will be working at an Investment Bank upon graduation. <br> <br></p>
-							</div>
-						</div>
-
-						<div class="col-md-2 single-member col-sm-3">
-							<div class="person-detail">
-								<div class="arrow-top"></div>
-								<h3>Yuanzhen Pan</h3>
-								<p>Class of 2018, Media Arts & Sciences and Economics</p>
-								<p>Jen is interested in the intersection of technology, design and education. Currently, she is partnering with a Wellesley alumna on an education program in East Asia. <br> <br> </p>
-							</div>
-							<div class="person">
-								<img class="img-responsive" src="img/item4.jpg" alt="member-4">
-							</div>
-						</div>
-
-						<div class="col-md-2 single-member col-sm-3">
-							<div class="person">
-								<img class="img-responsive" src="img/item5.jpg" alt="member-5">
+						<div class="about-details">
+							<div class="pentagon-text">
+								<h1>T</h1>
 							</div>
 
-							<div class="person-detail">
-								<div class="arrow-bottom"></div>
-								<h3>Navisha Gupta</h3>
-								<p>Class of 2017, Biology</p>
-								<p>Gupta has always been passionate about entrepreneurship. As as senior, Gupta will be working at a consulting firm upon graduation. <br> <br> <br> <br><br> </p>
-							</div>
-						</div>
+							<h3>Career Talks</h3>
+							<p>WeStart hosted various talks to expose the community to alternative career paths in entrepreneurship and tech. We brought in individuals with experience as product managers in high-growth start ups and as Angel Investors for a lecture series as well as representatives from Draper University, a start-up bootcamp. <br> <br> </p>
 						</div>
 					</div>
 				</div>
-			</section><!-- end of team section -->
 
-			<section id="contact">
-				<div class="container" >
-					<div class="row">
-							<div class="contact-caption clearfix">
-								<div class="contact-heading text-center">
-									<h2>contact us</h2>
-								</div>
 
-								<div class="contact-info text-center">
-									<h3>Reach out to us with any queries!</h3>
+				<div class="col-md-4 col-sm-6">
+					<div class="single-about-detail">
+						<div class="about-img">
+							<img class="img-responsive" src="img/about3.jpg" alt="">
+						</div>
 
-									<div class="info-detail text">
-									<!-- <p></p> -->
-										<ul><li><i class="fa fa-envelope"></i><span>Email:</span> westartwellesley@gmail.com</li></ul>
-									</div>
-								</div>
-
+						<div class="about-details">
+							<div class="pentagon-text">
+								<h1>L</h1>
 							</div>
-					</div>
-				</div>
-				<br>
-				<br>
-				<br>
-			</section><!-- end of contact section -->
 
-
-			<!-- footer starts here -->
-			<!-- <footer class="footer clearfix">
-				<div class="container">
-					<div class="row">
-						<div class="col-xs-6 footer-para">
-							<p>Template By <a href="http://wptechnews.com/">WpTechnews</a>&copy;All right reserved</p>
-						</div>
-
-						<div class="col-xs-6 text-right">
-							<a href=""><i class="fa fa-facebook"></i></a>
-							<a href=""><i class="fa fa-twitter"></i></a>
-							<a href=""><i class="fa fa-skype"></i></a>
+							<h3>Lecture Series</h3>
+							<p>WeStart hosted a lecture series with notable alumni in the Boston start-up scene such as C.A. Webb and Sarah Blake Case. Students were exposed to everything from workshops on how to start a business to learning about venture capital.<br> <br><br><br></p>
 						</div>
 					</div>
 				</div>
-			</footer> -->
 
+			</div>
+		</div>
+	</section><!-- end of about section -->
+	<!-- service section starts here -->
+	<!-- <section class="service text-center" id="service">
+		<div class="container">
+			<div class="row">
+				<h2>our services</h2>
+				<h4>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</h4>
 
+				<div class="col-md-3 col-sm-6">
+					<div class="single-service">
+						<div class="single-service-img">
+							<div class="service-img">
+								<img class="img-responsive" src="img/service1.png" alt="">
+							</div>
+						</div>
+						<h3>Consulting</h3>
+					</div>
+				</div>
 
+				<div class="col-md-3 col-sm-6">
+					<div class="single-service">
+						<div class="single-service-img">
+							<div class="service-img">
+								<img class="img-responsive" src="img/service2.png" alt="">
+							</div>
+						</div>
+						<h3>Financial</h3>
+					</div>
+				</div>
 
+				<div class="col-md-3 col-sm-6">
+					<div class="single-service">
+						<div class="single-service-img">
+							<div class="service-img">
+								<img class="img-responsive" src="img/service3.png" alt="">
+							</div>
+						</div>
+						<h3>Tax Help</h3>
+					</div>
+				</div>
 
+				<div class="col-md-3 col-sm-6">
+					<div class="single-service">
+						<div class="single-service-img">
+							<div class="service-img">
+								<img class="img-responsive" src="img/service4.png" alt="">
+							</div>
+						</div>
+						<h3>Money</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!-- end of service section -->
+	-->
+
+	<!-- team section -->
+
+	<section class="team" id="team">
+		<div class="container">
+			<div class="row">
+				<div class="team-heading text-center">
+					<h2 id="special">our team</h2>
+
+					<!-- Need to fix the alignment of this- it needs to be wider! -->
+
+					<h4>WeStart's Co-Founders serve as WeStart's current executive board. </h4>
+				</div>
+				<div class="properalign">
+					<div class="col-md-2 single-member col-sm-3">
+						<div class="person">
+							<img class="img-responsive" src="img/item1.jpg" alt="member-1">
+						</div>
+
+						<div class="person-detail">
+							<div class="arrow-bottom"></div>
+							<h3>Tina Zhang</h3>
+							<p>Class of 2019, Economics</p>
+							<p>Before Wellesley, Zhang interned at a radio app Start-up where she really enjoyed the entrepreneurial culture. Currently, she is working on a project that aims to improve nutrition deficiency in rural India.</p>
+						</div>
+
+					</div>
+
+					<div class="col-md-2 single-member col-sm-3">
+
+						<div class="person-detail">
+							<div class="arrow-top"></div>
+							<h3>Mojia Shen</h3>
+							<p>Class of 2018, Technology, Innovation, and Society</p>
+							<p> Mojia started Flavory after her first year which empowers stay-at-home mothers in mexico to sell homemade food to young professionals. Before that, Mojia founded a mental health nonprofit in China.</p>
+						</div>
+						<div class="person">
+							<img class="img-responsive" src="img/item2.jpg" alt="member-2">
+						</div>
+					</div>
+					<div class="col-md-2 single-member col-sm-3">
+						<div class="person">
+							<img class="img-responsive" src="img/item3.jpg" alt="member-3">
+						</div>
+						<div class="person-detail">
+							<div class="arrow-bottom"></div>
+							<h3>Rhea Advani</h3>
+							<p>Class of 2017, Economics</p>
+							<p>Advani was exposed to entrepreneurship after working for a Harvard College tech start-up her sophomore summer. As a senior, Advani will be working at an Investment Bank upon graduation. <br> <br></p>
+						</div>
+					</div>
+
+					<div class="col-md-2 single-member col-sm-3">
+						<div class="person-detail">
+							<div class="arrow-top"></div>
+							<h3>Yuanzhen Pan</h3>
+							<p>Class of 2018, Media Arts & Sciences and Economics</p>
+							<p>Jen is interested in the intersection of technology, design and education. Currently, she is partnering with a Wellesley alumna on an education program in East Asia. <br> <br> </p>
+						</div>
+						<div class="person">
+							<img class="img-responsive" src="img/item4.jpg" alt="member-4">
+						</div>
+					</div>
+
+					<div class="col-md-2 single-member col-sm-3">
+						<div class="person">
+							<img class="img-responsive" src="img/item5.jpg" alt="member-5">
+						</div>
+
+						<div class="person-detail">
+							<div class="arrow-bottom"></div>
+							<h3>Navisha Gupta</h3>
+							<p>Class of 2017, Biology</p>
+							<p>Gupta has always been passionate about entrepreneurship. As as senior, Gupta will be working at a consulting firm upon graduation. <br> <br> <br> <br><br> </p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!-- end of team section -->
+
+	<section id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="contact-caption clearfix">
+					<div class="contact-heading text-center">
+						<h2>contact us</h2>
+					</div>
+
+					<div class="contact-info text-center">
+						<h3>Reach out to us with any queries!</h3>
+
+						<div class="info-detail text">
+							<!-- <p></p> -->
+							<ul><li><i class="fa fa-envelope"></i><span>Email:</span> westartwellesley@gmail.com</li></ul>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<br>
+		<br>
+		<br>
+	</section><!-- end of contact section -->
+	<!-- footer starts here -->
+	<!-- <footer class="footer clearfix">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-6 footer-para">
+					<p>Template By <a href="http://wptechnews.com/">WpTechnews</a>&copy;All right reserved</p>
+				</div>
+
+				<div class="col-xs-6 text-right">
+					<a href=""><i class="fa fa-facebook"></i></a>
+					<a href=""><i class="fa fa-twitter"></i></a>
+					<a href=""><i class="fa fa-skype"></i></a>
+				</div>
+			</div>
+		</div>
+	</footer> -->
 	<!-- script tags
 	============================================================= -->
 	<script src="js/jquery-2.1.1.js"></script>
